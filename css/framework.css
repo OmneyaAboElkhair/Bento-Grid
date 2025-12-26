@@ -1,0 +1,183 @@
+:root {
+  --purple-light: hsl(254, 88%, 90%);
+  --purple-dark: hsl(256, 67%, 59%);
+  --yellow-light: hsl(31, 66%, 93%);
+  --yellow-dark: hsl(39, 100%, 71%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 7%);
+  --primary-font: 18px;
+}
+
+/* Start Display */
+.d-grid {
+  display: grid;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+.gap-20 {
+  gap: 20px;
+}
+
+.txt-c {
+  text-align: center;
+}
+
+@media (max-width:767px) {
+  .block-mobile {
+    display: block;
+  }
+}
+@media (max-width:767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+}
+/* End Display */
+/* Start Margin + Padding */
+
+.m-0 {
+  margin: 0;
+}
+
+.m-15 {
+  margin: 15px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.p-25 {
+  padding: 25px;
+}
+
+
+/* End Margin + Padding */
+
+/* Start Color + Background */
+
+.c-white {
+  color: var(--white);
+}
+
+.c-black {
+  color: var(--black);
+}
+
+.c-purple {
+  color: var(--purple-dark);
+}
+.c-yellow {
+  color: var(--yellow-dark);
+}
+
+.bg-purple-l {
+  background-color: var(--purple-light);
+}
+
+.bg-purple-d {
+  background-color: var(--purple-dark);
+}
+
+.bg-yellow-l {
+  background-color: var(--yellow-light);
+}
+.bg-yellow-d {
+  background-color: var(--yellow-dark);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+/* End Color + Background */
+
+/* Start Font */
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-35 {
+  font-size: 35px;
+}
+
+.fs-50 {
+  font-size: 50px;
+}
+
+.fs-italic {
+  font-style: italic;
+}
+
+.fw-bold {
+  font-weight: 500;
+}
+
+.letter-space {
+  letter-spacing: -2px;
+}
+/* End Font */
+
+/* Start Width + Height */
+.w-100 {
+  width: 100px;
+}
+
+.h-100 {
+  height: 100px;
+}
+/* End Width + Height */
+
+/* Start Border */
+
+.rad-6 {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/* End Border */
